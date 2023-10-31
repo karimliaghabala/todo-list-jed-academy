@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid;
+  width: 300px;
+  border-radius: 5%;
+  background: linear-gradient(45deg, rgb(105, 105, 107), rgb(73, 80, 82), white);
+  padding: 20px 40px;
+  margin-top: 90px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body .container h1 {
+  color: white;
+  padding: 10px 0;
+}
+body .container .main .input {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+body .container .main .input input {
+  background-color: rgba(95, 158, 160, 0.349);
+  padding: 5px 10px;
+  margin-right: 70px;
+  color: white;
+  outline: none;
+}
+body .container .main .input span {
+  border: 1px solid #ffd700;
+  color: #ffd700;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+body .container .main .list {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 40px;
+}
+body .container .main .list ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #FFD700;
+  padding: 10px;
+}
+body .container .main .list ul li {
+  list-style: none;
+  color: white;
+}
+body .container .main .list ul i {
+  margin-right: 20px;
+  color: #ffd700;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
